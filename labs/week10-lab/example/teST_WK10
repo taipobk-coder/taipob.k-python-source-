@@ -1,0 +1,47 @@
+"""#1รับค่า text จากผู้ใช้
+#2รับค่าอัขระที่ต้อวการค้นหาจากผู้ใช้
+#แสดงผลจำนวนของข้อความ text
+
+count = 0
+text = input("enter your text")
+char = input("charater to find")
+for lettre in text:
+    if letter == char:
+        count += 1
+print(f"insert u text : {text}")
+print(f"charater : {char}")
+print("{count} letter'{char}'foud in '{text}")
+"""
+
+#เขียนโปรแกรมตรวจสอบความแข็งแรงของpassword
+#นิยามของstrong password คือ ยาว 8ตัว,มีอัขระ @ 1 ตัว,มีตัวเลข,มีตัวอักษร
+import re
+
+
+def check_password(psw):
+    if len(psw) < 8:
+        print("no pass")
+        return False
+
+    if not re.search(r"[a-zA-Z]", psw):
+        print("no pass")
+        return False
+
+    if not re.search(r"[0-9]", psw):
+        print("no pass")
+        return False
+
+    if not re.search(r"[@]", psw):
+        print("no pass")
+        return False
+
+    return True
+
+
+if __name__ == "__main__":
+    psw = input("enter your password: ").strip()
+
+    if check_password(psw):
+        print("✅ ")
+    else:
+        print("❌ try again")
