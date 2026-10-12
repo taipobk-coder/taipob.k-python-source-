@@ -1,3 +1,4 @@
+""""
 class Car:
     # Class attribute (shared by all instances)
     wheels = 4
@@ -39,3 +40,20 @@ print(car2.get_info())
 # Using methods
 print(car1.drive(100))
 print(car2.drive(250))
+"""
+
+
+class women:
+
+    def__init__(self,age,cm,kg)
+    self.age = age
+    self.cm = cm
+    self.kg = kg
+
+    def get_info(self)
+        return f"{self.age},{self.cm},{self.kg}"
+
+
+women1 = women(18,155,45)
+
+print(women1.get_info)
