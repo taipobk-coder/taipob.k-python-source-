@@ -18,15 +18,16 @@ women2 = women(19,158,56)
 print(women2.get_info())
 """
 
+"""""
 class Employee:
     def __init__(self,emp_id,emp_name,emp_salary,emp_deparment):
         self.emp_id = emp_id
         self.emp_name = emp_name
         self.emp_salary = emp_salary
         self.emp_deparment = emp_deparment
+""""
 
-
-
+"""""
     def cal_emp_salary(self,hours):
         if hours > 50:
             ot = hours-50
@@ -56,3 +57,5 @@ emp1.emp_assign_deparment("it")
 
 print("Updated Details:")
 emp1.emp_details()
+"""
+
