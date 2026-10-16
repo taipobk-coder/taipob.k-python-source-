@@ -33,12 +33,16 @@ print("Third", "line", "with", "multiple", "arguments")
 # Exercise 6: Comments Practice
 # Add comments above each print statement explaining what it does
 
+<<<<<<< HEAD
 #
 """""""
 วันนนี้สนุกมากเลยpythonครั้งแรก
 เย้
 เย้
 """""""
+=======
+# 
+>>>>>>> upstream/main
 print("Welcome to Python programming!")
 
 # 

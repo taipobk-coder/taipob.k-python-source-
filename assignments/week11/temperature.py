@@ -22,6 +22,7 @@ Highest: 28 C
 Lowest: 19 C
 
 """
+<<<<<<< HEAD
 
 def get_temperatures():
     temps = [21,12,30,27,27,25,33]
@@ -49,3 +50,6 @@ print(temps)
 result = analyze_temps(temps)
 display_analysis(result[0], result[1], result[2])
 
+=======
+    
+>>>>>>> upstream/main

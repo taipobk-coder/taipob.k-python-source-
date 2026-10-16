@@ -22,5 +22,8 @@
     "editor.suggestOnTriggerCharacters": false,
     "editor.suggest.showWords": false,
     "editor.hover.enabled": "off",
+<<<<<<< HEAD
     "python-envs.defaultEnvManager": "ms-python.python:system",
+=======
+>>>>>>> upstream/main
 }
